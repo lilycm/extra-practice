@@ -103,29 +103,29 @@ main{
     width: 100%;
 }
 
-.feautures-title{
+.feautures-detail{
     width: 550px;
 }
 
-.feautures-title h1 .quick{
+.feautures-detail h1 .quick{
     color: #727272;
     font-size: 45px;
     font-weight: 500;
 }
 
-.feautures-title h1 .our{
+.feautures-detail h1 .our{
     color: #131313;
     font-size: 45px;
     font-weight: 700;
 }
 
-.feautures-title h1 .feature{
+.feautures-detail h1 .feature{
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
 }
 
-.feautures-title p{
+.feautures-detail p{
     color:#727272;
     font-size: 16px;
     font-weight: 400;
@@ -133,12 +133,82 @@ main{
 }
 /* feautures section end */
 
+
+
+/* another features section start */
+
+.features-another{
+    margin-top: 110px;
+    display: flex;
+    gap: 100px;
+}
+
+.features-another .feautres-title-another{
+    width: 50%;
+}
+
+.features-another .feautres-title-another h1{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+
+.feautres-title-another .common-text{
+    color: #727272;
+    font-weight: 400px;
+    padding: 24px 0px 0px 0px;
+}
+
+.feauture-list{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    padding: 30px 30px;
+}
+
+.another-features-photo{
+    width: 50%;
+}
+.another-features-photo img{
+    width: 100%;
+}
+
+.experience-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 42px 40px;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: -50px;
+}
+
+.experience-badge h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.experience-badge p{
+    font-size: 25px;
+}
+/* another features section end */
+
+
+
+
+
+
+
+
 /* media query start for small device */
 @media screen and (max-width: 576px) {
     main{
         margin: 0;
     }
-    .header nav, ul, .features-sec{
+    .header nav, ul, .features-sec, .features-another{
         flex-direction: column;
         text-align: center;
     }
@@ -161,11 +231,35 @@ main{
     .feautur-img img{
         width: 100%;
     }
-    .feautures-title{
+    .feautures-detail{
         width: 90%;
         padding: 20px;
+        margin: auto;
     }
 
+    .features-another .feautres-title-another{
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .features-another .feautres-title-another h1{
+        text-align: center;
+    }
+
+    .another-features-photo{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .experience-badge{
+        width: 200px;
+        margin: auto;
+        position: static;
+        top: 0;
+        bottom: 0;
+    }
+ 
 }
 
 
@@ -176,7 +270,7 @@ main{
     main{
         margin: 0;
     }
-    .header nav, ul, .features-sec{
+    .header nav, ul, .features-sec, .features-another{
         flex-direction: column;
         text-align: center;
     }
@@ -185,4 +279,32 @@ main{
         margin-top: 50px;
     }
 
+    .feautures-detail{
+        width: 90%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .features-another .feautres-title-another{
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .features-another .feautres-title-another h1{
+        text-align: center;
+    }
+
+    .another-features-photo{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .experience-badge{
+        width: 200px;
+        margin: auto;
+        position: static;
+        top: 0;
+        bottom: 0;
+    }
 }
