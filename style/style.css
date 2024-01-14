@@ -238,6 +238,37 @@ main{
 /* facts section end */
 
 
+/* partner section start */
+.partener-sec{
+    margin-top: 110px;
+}
+
+.partener-sec .partener-detail{
+    text-align: center;
+}
+
+.partener-detail p{
+    width: 50%;
+    margin: auto;
+    padding: 24px 0px 50px 0px;
+    line-height: 26px;
+}
+
+.partener-sec .partner-logos{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.partener-sec .partner-logos .logo img{
+    width: 100%;
+}
+/* partner section end */
+
+
+
+
 
 
 
@@ -246,7 +277,7 @@ main{
     main{
         margin: 0;
     }
-    .header nav, ul, .features-sec, .features-another, .cards{
+    .header nav, ul, .features-sec, .features-another, .cards, .partner-logos{
         flex-direction: column;
         text-align: center;
     }
@@ -353,5 +384,8 @@ main{
 
     .facts-title{
         text-align: center;
+    }
+    .partner-logos{
+        flex-wrap: wrap;
     }
 }
