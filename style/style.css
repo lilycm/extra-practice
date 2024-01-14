@@ -17,7 +17,7 @@ body,
     cursor: pointer;
 }
 
-main{
+main, footer{
     margin: 0 110px;
 }
 
@@ -100,7 +100,7 @@ main{
 .features-sec .features-photo{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 20px;
 }
 
 .feautur-img img{
@@ -267,7 +267,22 @@ main{
 /* partner section end */
 
 
+/* footer section start */
 
+footer{
+    margin-top: 110px;
+}
+
+.copywrite{
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 38px;
+}
+/* footer section end */
 
 
 
@@ -333,6 +348,14 @@ main{
     }
     .facts-title p{
         padding: 0px 10px;
+    }
+
+    footer{
+       margin: 50px 0px 0px 0px;
+    }
+
+    .copywrite{
+        padding: 10px;
     }
 }
 
